@@ -2,3 +2,15 @@
     margin: 0;
     padding: 0;   
 }
+
+.title-main{
+    font-size: 1em;
+}
+    table {
+      display: block;
+      overflow-x: auto;
+    }
+    footer{
+        display:block;
+    }
+}
