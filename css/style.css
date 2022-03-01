@@ -2,10 +2,31 @@
     margin: 0;
     padding: 0;   
 }
+body{
+    background-color: #000b12;
+    color: #535353;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+
+.containerMain{
+    margin-bottom: 5%;
+}
 
 .title-main{
-    font-size: 1em;
+    font-size: 30px;
+    color: #ffff;
 }
+.mainIndex{ 
+    position: relative; 
+} 
+   .textMain { 
+    position: absolute; 
+    top: 20%; 
+    left: 0; 
+    width: 100%; 
+   } 
+
     table {
       display: block;
       overflow-x: auto;
@@ -13,4 +34,6 @@
     footer{
         display:block;
     }
-}
+    .coinRune{
+        width: 15rem;
+    }
