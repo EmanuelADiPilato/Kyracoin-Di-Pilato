@@ -4,9 +4,25 @@
 }
 body{
     background-color: #000b12;
+    overflow-x: hidden;
     color:white;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
+}
+#menu a{
+    font-size: 18px;
+    font-weight: bold;   
+}
+#menu a:hover{
+    background-color: black;
+    border-radius: 10px;
+   
+  
+}
+#menu button{
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
 }
 /* stylos Index first mobile */
 
@@ -17,9 +33,14 @@ body{
 .title-main{
     font-size: 30px;
     color:blanchedalmond;
-}  
+}
+.imgMain{
+    max-height: 40rem;
+
+} 
 .mainIndex{ 
-    position: relative; 
+    position: relative;
+    
 } 
    .textMain { 
     position: absolute; 
@@ -39,6 +60,28 @@ body{
         width: 15rem;
     }
     .infoRune{
-        font-size: 15px;
+        font-size: 25px;
         color: white;
     }
+    /*=========== @MEDIAS desktop */
+    @media (min-width: 992px){
+    #menu a{
+        font-size: 30px;
+        font-weight: bold;  
+    }
+    .title-main{
+        font-size: 3rem;
+        color:blanchedalmond;
+        line-height: 7rem;
+    }
+    .title{
+        font-size: 4rem;
+    }
+    .titleRune{
+        font-size: 4rem;
+    }
+    .infoRune{
+        font-size: 1.5em;
+        color: white;
+    }
+}
