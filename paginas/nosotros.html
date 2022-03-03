@@ -5,84 +5,96 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="../imagenes/kyraicon.png">
+        <link rel="shortcut icon" href="../imagenes/kyraicon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/style.css">
         <title>Kyracoin-defi</title>
     </head>
 <body>
-     <!-- inicio barra de navegacion -->
-     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="./index.html">
-                  <img src="../imagenes/kyraicon.png" alt="logonavbar" width="80px" srcset="">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="../index.html">HOME</a>
-                  </li>  
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="../paginas/defi.html">DEFI</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../paginas/nosotros.html">NOSOTROS</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../paginas/comprarkyracoin.html">COMPRAR KYRACOIN</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../paginas/redes.html"> NUESTRAS REDES!</a>
-                  </li>
-                </ul>
-              </div>
+     <<!-- ==================================barra de navegacion======================== -->
+     <header class="sticky-top">
+      <nav id="menu" class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid ">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../imagenes/kyraicon.png" alt="logonavbar" width="80px" srcset="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavResponsive" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="../index.html">HOME</a>
+                </li>  
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="../paginas/defi.html">DEFI</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../paginas/nosotros.html">NOSOTROS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../paginas/comprarkyracoin.html">COMPRAR</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../paginas/redes.html">REDES!</a>
+                </li>
+              </ul>
             </div>
-          </nav>
-    </header>
-<!-- fin barra de navegacion -->
+          </div>
+        </nav>
+  </header>
+<!--=================================================================================-->
+
 <hr>
 <!-- inicio cuerpo de la pagina -->
 
 
 
-<main>
-    <div class="container">
-            <div class="container">    
-            <h1>NUESTRO EQUIPO</h1>
-            </div>
-            <div class=container>
-                    <p>Somos tres socios que nos apasiona el mundo crypto y tenemos mucha experiencia en diferentes proyectos como este.
-                    Reunimos todas las caracteristicas necesarias para poder llevar este proyecto a grandes metas,
-                    Queremos que vos seas parte de este camino y puedas crecer junto a nosotros como inversionista de kyracoin<p>
-                    </div>
+<section>
+  <div class="container">
+    <div class="text-center mb-5">    
+        <h1>NUESTRO EQUIPO</h1>
+    </div>
+      <div class="container mb-5">
+           <p class="fs-2">Somos tres socios que nos apasiona el mundo crypto y tenemos mucha experiencia en diferentes proyectos como este.
+           Reunimos todas las caracteristicas necesarias para poder llevar este proyecto a grandes metas,
+           Queremos que vos seas parte de este camino y puedas crecer junto a nosotros como inversionista de kyracoin<p>
+      </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="div__ceo text-center ">
+            <img class="border border-5 mx-auto rounded-circle mb-5" width="250" src="../imagenes/perfil1.jpg">
+            <h3>Jaime Vazquez</h3>
+            <h4>Ceo Co-Founder</h2>
+            <p class="text-muted">dev blockchain</p>
+          </div>
         </div>
-</main>
-        <div class="div__ceo">
-            <img width="300" src="../imagenes/perfil1.png">
-            <h3>Jaime vazquez</h3>
-            <p>ceo co-founder<br>
-            dev blockchain</p><br>
+        <div class="col-lg-4">
+          <div class="div_subceo text-center">
+                <div class="ceo__robert">
+                  <img class="mx-auto rounded-circle mb-5 border border-4" width="250" src="../imagenes/perfil3.jpg">    
+                  <h3>Roberto Gonzalez</h3>
+                  <h4>Dep de Marketing</h4>
+                  <p class="text-muted">data analytics </p>
+                </div>
+          </div>
         </div>
-    
-        <div class="div_subceo">
-            <div class="ceo__robert">
-                <img width="300" src="../imagenes/perfil 2.png">    
-                <h3>Roberto Gonzalez</h3>
-                <p>dep de marketing<br>
-                data analytics </p><br>
-            </div>
-        
-        
-            <div class="ceo__paola">
-                <img width="300" src="../imagenes/perfil3.png">
+            <div class="col-lg-4">
+              <div class="ceo__paola text-center">
+                <img class="mx-auto rounded-circle mb-5 border border-4" width="250" src="../imagenes/perfil2.jpg">
                 <h3>Paola vazquez</h3>
-                <p>Ceo co-founder<br>
-                dep de finanzas e inversiones</p><br>
+                <h4>Ceo co-founder</h4>
+                <p class="text-muted">Finanzas <br> Inversiones</p>
+                <br>
+                </div>
+              </div>
             </div>
-        </div>
+    </div>
+  </div>
+</section>
         <!-- fin cuerpo de la pagina -->
         <!-- inicio footer -->
         <hr>
@@ -107,7 +119,7 @@
                 <a href="https://web.whatsapp.com/"target="_blank">
                 <img   width="40" src="../imagenes/whatsapp.png">
                 </a>
-                <img class="lgft" width="50" src="./imagenes/kyraicon.png"/><br>
+                <img class="lgft" width="50" src="../imagenes/kyraicon.png"/><br>
                 <p class="end text-light text-center">Todos los derechos reservados KYRACOIN.</p>
             </div>        
         </footer>

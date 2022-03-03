@@ -98,3 +98,10 @@ body{
         font-size: 1.5rem;
     }
 }
+
+/* stylo comprarkyracoin */
+.boton:hover {
+    color: rgb(161, 10, 10);
+    box-shadow: 0 15px 20px rgb(172, 49, 55);
+    transition: all 0.4s ease;
+  }
