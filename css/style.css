@@ -85,3 +85,16 @@ body{
         color: white;
     }
 }
+
+/* stylo firtmobile DEFI */
+.main__parrafo{
+    font-size: 1.5rem;
+}
+.Defi__item{
+    font-size: 1rem;
+}
+@media (min-width: 992px){
+    .parrafo__defi{
+        font-size: 1.5rem;
+    }
+}
