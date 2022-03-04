@@ -22,7 +22,7 @@
               <a class="navbar-brand" href="../index.html">
                   <img src="../imagenes/kyraicon.png" alt="logonavbar" width="80px" srcset="">
               </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavResponsive" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
@@ -52,53 +52,73 @@
 <!-- fin barra de navegacion -->
     <!-- inicio cuerpo de pagina -->
     <section class="Section__redes">
-    
-        <h1 class="Redes__title">Nuestras redes</h1><br>
-        <div class="div__parrafoRedes">
-            <P>En nuestras Redes sociales podras encontrar mucha mas informacion del token<br>
-            ademas de recibir siempre las ultimas actualizaciones directo a tu celular.<br>
-            Tambien podes recibir informacion sobre las ultimas noticias del mundo crypto <br>
-            dejandonos tus datos en el siguente formulario</P>
-        </div>
-            <div class="div__redes">   
-                <div class="texto__redes"><a class="link__redes" href="http://facebook.com" target="_blank"> kyracoin</div></a>
-                    <a href="http://facebook.com" target="_blank">
-                    <img src="../imagenes/redes-facebok.png">
-                    </a>
+        <div class="row container-fluid">
+            <div class="container-fluid col-lg-6 col-md-6 col-sm-12">
+                <h1>Nuestras redes</h1>
+            
+                <P class="fs-2">En nuestras Redes sociales podras encontrar mucha mas informacion del token<br>
+                ademas de recibir siempre las ultimas actualizaciones directo a tu celular.<br>
+                Tambien podes recibir informacion sobre las ultimas noticias del mundo crypto <br>
+                </P>
             </div>
-            <div class="div__redes">
-                <div class="texto__redes"> <a class="link__redes" href="http://instagram.com" target="_blank"<p>@kyracoin</p></div>
-                    <a href="http://instagram.com" target="_blank">
+        
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="div__redes">   
+                    <div class=" position-relative d-inline-block">
+                        <a  class="position-absolute " href="http://facebook.com" target="_blank"> kyracoin</div></a>
+                        <img src="../imagenes/redes-facebok.png">
+                    </div>
+                <div class="div__redes">
+                    <div class="position-relative d-inline-block">
+                        <div>
+                            <a class=" position-absolute" href="http://instagram.com" target="_blank"<p>@kyracoin</p></div></a>
+                        </div>
                     <img src="../imagenes/redes-instagram.png">
-                    </a>
+                </div>
+                <div class="div__redes">
+                    <div class="position-relative d-inline-block">
+                        <a class= "position-absolute" href="http://twitter.com" target="_blank"><p>@kyracoinOK</p></div></a>
+                        <img src="../imagenes/redes-twitter.png">  
+                </div>
+                <div class="div__redes">
+                    <div class="texto__redes position-relative d-inline-block">
+                        <a class=" position-absolute infoRedes"href="https://web.whatsapp.com/"><p>11-69854469</p></div></a>
+                        <img src="../imagenes/redes-whatsapp.png">
+                
+                </div>
             </div>
-            <div class="div__redes">
-                <div class="texto__redes"><a class="link__redes" href="http://twitter.com" target="_blank"><p>@kyracoinOK</p></div></a>
-                    <a href="http://twitter.com" target="_blank">
-                    <img src="../imagenes/redes-twitter.png">
-                    </a>
-            </div>
-            <div class="div__redes">
-                <div class="texto__redes"><a class="link__redes"href="https://web.whatsapp.com/"><p>11-69854469</p></div></a>
-                <a href="https://web.whatsapp.com/" target="_blank">
-                    <img src="../imagenes/redes-whatsapp.png">
-                </a>
-            </div>
-
+        </div>
+    </section>
    <!--  </section>  -->  
 <!-- inicio formulario de contacto -->
-    <form>       
-        <fieldset class="form">
+<div class="container-fluid row">
+    <form class="border">
+        <div class="row align-items-stretch mb-5">      
+            <fieldset class="form">
             <legend>CONTACTANOS</legend>
-                <div class="div__form">
-                    <label for="hombre">HOMBRE</label>
-                    <input type="radio" id="sexo"name="sexo" value="1">
-                    <label for="mujer">MUJER</label>
-                    <input type="radio" id="sexo"name="sexo" value="2"><br><br>
-                    <input type="text" id="name" name="name" placeholder="Nombre Completo" required/><br><br>
-                    <label for="email">Email</label><br>
-                    <input type="email" id="email" name="email" placeholder=" e-mail nombre@servidor.com" required/><br><br>
-                    <textarea class="textarea__form" name="message" rows="10" cols="30" placeholder="comentarios"></textarea><br>
+                <div class="col-md-6">
+                    <div class="form-group">
+                     
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">HOMBRE</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">MUJER</label>
+                          </div>
+                    
+                    <input class="form-control" type="text" id="name" name="name" placeholder="Nombre Completo" required/><br><br>
+
+                    <input class="form-control" type="email" id="email" name="email" placeholder=" e-mail nombre@servidor.com" required/><br><br>
+                </div>
+                    <div class="col-md-6">
+                        <div class="form-group form-group-textarea mb-md-0">
+                           
+                            <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
+                            <div class="invalid-feedback">A message is required.</div>
+                        </div>
+                    </div>
                         <h3>¿Desea recibir nuestro newsletter? <input type="checkbox" name="newsletter" value="1"/></h3>
                     <h3>Crypto moneda favorita
                     <select class="Select__coin" name="coin">
@@ -111,7 +131,8 @@
                     <input class="input__form" type="reset" value="borrar datos"/>
                 </div>
          </fieldset>
-    </form><br><br>
+    </form>
+</div>
 <!-- fin formulario de contacto-->     
 <!-- inicio footer -->
 <hr>
