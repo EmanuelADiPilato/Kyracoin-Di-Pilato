@@ -54,7 +54,7 @@
     <section class="Section__redes">
         <div class="row container-fluid">
             <div class="container-fluid col-lg-6 col-md-6 col-sm-12">
-                <h1>Nuestras redes</h1>
+                <h1 class="text-primary text-center mt-5">Nuestras redes</h1>
             
                 <P class="fs-2">En nuestras Redes sociales podras encontrar mucha mas informacion del token<br>
                 ademas de recibir siempre las ultimas actualizaciones directo a tu celular.<br>
@@ -62,77 +62,90 @@
                 </P>
             </div>
         
-            <div class="col-lg-6 col-md-6 col-sm-12">
-                <div class="div__redes">   
-                    <div class=" position-relative d-inline-block">
-                        <a  class="position-absolute " href="http://facebook.com" target="_blank"> kyracoin</div></a>
-                        <img src="../imagenes/redes-facebok.png">
-                    </div>
-                <div class="div__redes">
-                    <div class="position-relative d-inline-block">
+            <div class="col-lg-6 col-md-6 col-sm-12 text-center mt-5 ">
+                <div class="row">
+                    <div class="div__redes mb-5 ">   
                         <div>
-                            <a class=" position-absolute" href="http://instagram.com" target="_blank"<p>@kyracoin</p></div></a>
+                            <a  class=" text-decoration-none text-light" href="http://facebook.com" target="_blank"></div>
+                            <img class="img-fluid" src="../imagenes/redes-facebok.png"></4>
                         </div>
-                    <img src="../imagenes/redes-instagram.png">
-                </div>
-                <div class="div__redes">
-                    <div class="position-relative d-inline-block">
-                        <a class= "position-absolute" href="http://twitter.com" target="_blank"><p>@kyracoinOK</p></div></a>
-                        <img src="../imagenes/redes-twitter.png">  
-                </div>
-                <div class="div__redes">
-                    <div class="texto__redes position-relative d-inline-block">
-                        <a class=" position-absolute infoRedes"href="https://web.whatsapp.com/"><p>11-69854469</p></div></a>
-                        <img src="../imagenes/redes-whatsapp.png">
-                
+                    <div class="div__redes mb-5 ">
+                        <div>
+                            <div>
+                                <a class="text-decoration-none text-light" href="http://instagram.com" target="_blank"></div>
+                            </div>
+                            <img class="img-fluid" src="../imagenes/redes-instagram.png"></a>
+                        </div>
+                    </div>
+                <div class="row">
+                    <div class="div__redes mb-5 ">
+                        <div>
+                            <a class="text-decoration-none text-light" href="http://twitter.com" target="_blank"></div>
+                            <img class="img-fluid" src="../imagenes/redes-twitter.png"></a>
+                        </div>
+                    </div>
+                    <div class="div__redes mb-5 ">
+                        <div class="texto__redes">
+                            <a class="infoRedes text-decoration-none text-light"href="https://web.whatsapp.com/" target="_blank"></div>
+                            <img class="img-fluid" src="../imagenes/redes-whatsapp.png"></a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
     </section>
    <!--  </section>  -->  
 <!-- inicio formulario de contacto -->
-<div class="container-fluid row">
-    <form class="border">
-        <div class="row align-items-stretch mb-5">      
-            <fieldset class="form">
-            <legend>CONTACTANOS</legend>
+<section class="page-section container" id="contact">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="header"> CONTACTANOS</h2>
+        </div>
+        <form id="contactForm">
+            <div class="row align-items-stretch mb-5">
                 <div class="col-md-6">
                     <div class="form-group">
-                     
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                            <label class="form-check-label" for="inlineCheckbox1">HOMBRE</label>
-                          </div>
-                          <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                            <label class="form-check-label" for="inlineCheckbox2">MUJER</label>
-                          </div>
-                    
-                    <input class="form-control" type="text" id="name" name="name" placeholder="Nombre Completo" required/><br><br>
-
-                    <input class="form-control" type="email" id="email" name="email" placeholder=" e-mail nombre@servidor.com" required/><br><br>
-                </div>
-                    <div class="col-md-6">
-                        <div class="form-group form-group-textarea mb-md-0">
-                           
-                            <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
-                            <div class="invalid-feedback">A message is required.</div>
-                        </div>
+                        <!-- Name input-->
+                        <input class="form-control" id="name" type="text" placeholder="Nombre *" required/>
+                        
                     </div>
-                        <h3>¿Desea recibir nuestro newsletter? <input type="checkbox" name="newsletter" value="1"/></h3>
-                    <h3>Crypto moneda favorita
-                    <select class="Select__coin" name="coin">
+                    <div class="form-group">
+                        <!-- Email address input-->
+                        <input class="form-control" id="name" type="text" placeholder="Apellido *" required />
+                    
+                    </div>
+                    <div class="form-group mb-md-0">
+                        <!-- Phone number input-->
+                        <input class="form-control" id="email" type="email" placeholder="Email *" required />
+                        
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group form-group-textarea mb-md-0">
+                        <!-- Message input-->
+                        <textarea class="form-control" id="message" placeholder="Mensaje *" required ></textarea>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="form-check ms-5">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck"><p class="fs-3 text-center">¿Desea recibir nuestro newsletter?</p></label>
+                    
+                <p class="fs-3">Sobre que moneda desea recibir mas informacion
+                    <select class="Select__coin mb-4" name="coin">
                         <option value="btc">Bitcoin</option>
                         <option value="eth">Ethereum</option>
                         <option value="ftm">Fantom</option>
                         <option value="kyra">Kyra</option>
-                    </select></h3>
-                    <input class="input__form" type="submit" value="enviar"/>
-                    <input class="input__form" type="reset" value="borrar datos"/>
-                </div>
-         </fieldset>
-    </form>
-</div>
+                    </select></p>
+                    <div class="text-center pb-5">
+                        <input class="input__form btn btn-secondary btn-lg" type="submit" value="ENVIAR"/>
+                        <input class="input__form btn btn-secondary btn-lg" type="reset" value="RESET"/>
+                    </div>
+            </div>
+        </form>   
+    </div>
+</section>
 <!-- fin formulario de contacto-->     
 <!-- inicio footer -->
 <hr>
